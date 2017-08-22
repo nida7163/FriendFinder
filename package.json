@@ -1,9 +1,8 @@
 {
-  "name": "express",
+  "name": "friendfinder",
   "version": "1.0.0",
-  "main": "apitRoutes.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -18,5 +17,9 @@
     "url": "https://github.com/nida7163/FriendFinder/issues"
   },
   "homepage": "https://github.com/nida7163/FriendFinder#readme",
-  "description": ""
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "path": "^0.12.7"
+  }
 }
